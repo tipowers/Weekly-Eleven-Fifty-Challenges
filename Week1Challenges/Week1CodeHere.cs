@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace Week1Challenges
 {
     [TestClass]
-    public class UnitTest1
+    public class Week1CodeHere
     {
         [TestMethod]
         public void RandomFromWeek1()
@@ -17,6 +17,11 @@ namespace Week1Challenges
 
             // Declare and initialize an array that holds a collection of at least four of your favorite book or movie titles
             string[] favoriteBooksAndMovies = { "Memnoch The Devil", "Call Me By Your Name", "Inception", "The Heart of the Buddha's Teaching" };
+
+            foreach (var item in favoriteBooksAndMovies)
+            {
+                Console.WriteLine(item + "/n");
+            }
 
             // Make a list to hold dates, include on that list the current date and time
 
